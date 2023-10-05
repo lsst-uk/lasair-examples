@@ -14,7 +14,7 @@ Stored on users own machine.
 - `$ cd lasair-examples/notebooks/marshall`
 - `$ pip3 install -r requirements.txt`
 - Get your token from Lasair and make a file called `settings.py` with the single line
--    ```API_TOKEN = '8c97c954ddef90faa1f16866a12b046a504ab7e4'```
+    -    ```API_TOKEN = '8c97c954ddef90faa1f16866a12b046a504ab7e4'```
 - `$ jupyter notebook`
 - Select Marshall.ipynb and start it
 - Modify `my_topic` and `showAttr` depending on your Lasair filter
