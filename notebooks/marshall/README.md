@@ -3,6 +3,9 @@ Show lightcurve and cutouts from given Lasair topic
 with option to build veto list (dont show me this object again),
 as well as favourite list, each with a reason given. 
 Stored on users own machine.
+**NOTE**: This notebook connects to the Lasair Kafka service on port 9092. 
+If you are on a restricted network such as eduroam, that port may be blocked, 
+and a VPN will be necessary.
 
 ## Instructions:
 
