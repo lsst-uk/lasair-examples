@@ -1,5 +1,5 @@
 # A Marshall for Lasair filter output
-![Screenshot](https://github.com/lsst-uk/lasair-examples/tree/main/notebooks/marshall/marshall_screenshot.png?raw=true)
+![Screenshot](marshall/marshall_screenshot.png)
 Show lightcurve and cutouts from given Lasair topic
 with option to build veto list (dont show me this object again),
 as well as favourite list, each with a reason given. 
