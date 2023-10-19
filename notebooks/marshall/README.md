@@ -1,4 +1,5 @@
 # A Marshall for Lasair filter output
+![Screenshot of Marshall](https://github.com/lsst-uk/lasair-examples/tree/main/notebooks/marshall/marshall_screenshot.png?raw=true)
 Show lightcurve and cutouts from given Lasair topic
 with option to build veto list (dont show me this object again),
 as well as favourite list, each with a reason given. 
@@ -21,7 +22,8 @@ and a VPN will be necessary.
     - where the XXX is your own token
 - `$ jupyter notebook`
 - Select Marshall.ipynb and start it
-- Modify `my_topic` and `showAttr` depending on your Lasair filter
+- Modify `my_topic` and `group_id` and `showAttr` as written in the notebook
 - Choose Run / Run All Cells
 - Check the "veto" and "fave" boxes to veto or favourite
 - At the bottom pf the output click "Save veto/fave choices"
+
