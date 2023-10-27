@@ -22,8 +22,7 @@ and a VPN will be necessary.
     - where the XXX is your own token
 - `$ jupyter notebook`
 - Select Marshall.ipynb and start it
-- Modify `my_topic` and `group_id` and `showAttr` as written in the notebook
+- Modify `my_topic` and `group_id` as written in the notebook
 - Choose Run / Run All Cells
 - Check the "veto" and "fave" boxes to veto or favourite
-- At the bottom pf the output click "Save veto/fave choices"
 
