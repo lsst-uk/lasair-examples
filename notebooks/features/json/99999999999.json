@@ -1,0 +1,158 @@
+{
+  "diaObject": {
+    "diaObjectId": 99999999999,
+    "ra": 123.0,
+    "decl": 23.0
+  },
+  "diaSourcesList": [
+    {
+      "midpointMjdTai": 60585.488921153905,
+      "mjd": 60585.488921153905,
+      "band": "z",
+      "psfFlux": 330.9826750488875,
+      "psfFluxErr": 100
+    },
+    {
+      "midpointMjdTai": 60593.30162961861,
+      "mjd": 60593.30162961861,
+      "band": "r",
+      "psfFlux": 1703.3921394096171,
+      "psfFluxErr": 100
+    },
+    {
+      "midpointMjdTai": 60597.7981952584,
+      "mjd": 60597.7981952584,
+      "band": "u",
+      "psfFlux": 2187.771106036008,
+      "psfFluxErr": 100
+    },
+    {
+      "midpointMjdTai": 60600.94362445494,
+      "mjd": 60600.94362445494,
+      "band": "i",
+      "psfFlux": 11069.959091051645,
+      "psfFluxErr": 100
+    },
+    {
+      "midpointMjdTai": 60602.706261042746,
+      "mjd": 60602.706261042746,
+      "band": "z",
+      "psfFlux": 11972.876648301255,
+      "psfFluxErr": 100
+    },
+    {
+      "midpointMjdTai": 60601.980198354766,
+      "mjd": 60601.980198354766,
+      "band": "r",
+      "psfFlux": 10317.328863392875,
+      "psfFluxErr": 100
+    },
+    {
+      "midpointMjdTai": 60596.10741531256,
+      "mjd": 60596.10741531256,
+      "band": "i",
+      "psfFlux": 4264.579834222946,
+      "psfFluxErr": 100
+    },
+    {
+      "midpointMjdTai": 60596.56048252244,
+      "mjd": 60596.56048252244,
+      "band": "u",
+      "psfFlux": 1704.3807227741738,
+      "psfFluxErr": 100
+    },
+    {
+      "midpointMjdTai": 60600.25243085878,
+      "mjd": 60600.25243085878,
+      "band": "z",
+      "psfFlux": 10714.288835270187,
+      "psfFluxErr": 100
+    },
+    {
+      "midpointMjdTai": 60595.76149803674,
+      "mjd": 60595.76149803674,
+      "band": "y",
+      "psfFlux": 4086.703392608394,
+      "psfFluxErr": 100
+    },
+    {
+      "midpointMjdTai": 60590.202183857924,
+      "mjd": 60590.202183857924,
+      "band": "g",
+      "psfFlux": 534.7706749567317,
+      "psfFluxErr": 100
+    },
+    {
+      "midpointMjdTai": 60606.485770489606,
+      "mjd": 60606.485770489606,
+      "band": "i",
+      "psfFlux": 9885.546449895508,
+      "psfFluxErr": 100
+    },
+    {
+      "midpointMjdTai": 60591.77764706329,
+      "mjd": 60591.77764706329,
+      "band": "g",
+      "psfFlux": 716.1805991525249,
+      "psfFluxErr": 100
+    },
+    {
+      "midpointMjdTai": 60600.31913553632,
+      "mjd": 60600.31913553632,
+      "band": "z",
+      "psfFlux": 10673.045913602191,
+      "psfFluxErr": 100
+    },
+    {
+      "midpointMjdTai": 60592.65054330862,
+      "mjd": 60592.65054330862,
+      "band": "z",
+      "psfFlux": 1518.2527220625254,
+      "psfFluxErr": 100
+    },
+    {
+      "midpointMjdTai": 60593.82643408279,
+      "mjd": 60593.82643408279,
+      "band": "r",
+      "psfFlux": 1885.1630252568584,
+      "psfFluxErr": 100
+    },
+    {
+      "midpointMjdTai": 60593.168996806766,
+      "mjd": 60593.168996806766,
+      "band": "u",
+      "psfFlux": 610.984791449546,
+      "psfFluxErr": 100
+    }
+  ],
+  "diaForcedSourcesList": [
+    {
+      "midpointMjdTai": 60586.10254553464,
+      "mjd": 60586.10254553464,
+      "band": "z",
+      "psfFlux": 45.32855798200136,
+      "psfFluxErr": 100
+    },
+    {
+      "midpointMjdTai": 60584.90778306804,
+      "mjd": 60584.90778306804,
+      "band": "i",
+      "psfFlux": 46.21772205410132,
+      "psfFluxErr": 100
+    },
+    {
+      "midpointMjdTai": 60589.68112558684,
+      "mjd": 60589.68112558684,
+      "band": "u",
+      "psfFlux": 4.455307734101837,
+      "psfFluxErr": 100
+    },
+    {
+      "midpointMjdTai": 60584.288456244634,
+      "mjd": 60584.288456244634,
+      "band": "u",
+      "psfFlux": -109.47230224174007,
+      "psfFluxErr": 100
+    }
+  ]
+}
