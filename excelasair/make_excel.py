@@ -4,6 +4,7 @@ from util import run
 # Uncomment one of these or put in your own
 myTopic     = 'lasair_2Lightweight'
 myTopic     = 'lasair_2Zooniverse'
+myTopic     = 'lasair_855BBBfastriser'
 
 # The group_id is like a bookmark: 
 # the kafka server remembers the last alert it gave you.
@@ -17,6 +18,6 @@ run(
     kafkaServer, 
     groupId, 
     myTopic, 
-    maxAlerts=5, 
+    maxAlerts=50, 
     cellSize=1.25
 )
