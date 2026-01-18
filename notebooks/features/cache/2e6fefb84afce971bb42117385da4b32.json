@@ -1,0 +1,41 @@
+{
+  "diaObjectId": "3527243035375042613",
+  "diaSources": [
+    {
+      "diaSourceId": 3527243035375042613,
+      "midpointMjdTai": 61314.27337522106,
+      "band": "g",
+      "psfFlux": -1404.5748291015625,
+      "psfFluxErr": 195.791259765625
+    },
+    {
+      "diaSourceId": 3527246256600514613,
+      "midpointMjdTai": 61314.27337522106,
+      "band": "g",
+      "psfFlux": -1404.5550537109375,
+      "psfFluxErr": 195.79037475585938
+    },
+    {
+      "diaSourceId": 3527246793471426613,
+      "midpointMjdTai": 61314.27337522106,
+      "band": "g",
+      "psfFlux": -1404.5858154296875,
+      "psfFluxErr": 195.7911834716797
+    },
+    {
+      "diaSourceId": 3527247867213250613,
+      "midpointMjdTai": 61314.27337522106,
+      "band": "g",
+      "psfFlux": -1404.572021484375,
+      "psfFluxErr": 195.79136657714844
+    }
+  ],
+  "diaForcedSources": [
+    {
+      "midpointMjdTai": 61314.27337522106,
+      "band": "g",
+      "psfFlux": -1403.2208251953125,
+      "psfFluxErr": 195.60301208496094
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "diaObjectId": "3516506171722694675",
+  "diaSources": [
+    {
+      "diaSourceId": 3516506171722694675,
+      "midpointMjdTai": 61058.062391224536,
+      "band": "u",
+      "psfFlux": 14853.0244140625,
+      "psfFluxErr": 1719.01416015625
+    },
+    {
+      "diaSourceId": 3527250519355555848,
+      "midpointMjdTai": 61322.15704222222,
+      "band": "u",
+      "psfFlux": -10293.880859375,
+      "psfFluxErr": 2317.190185546875
+    }
+  ],
+  "diaForcedSources": [
+    {
+      "midpointMjdTai": 61322.15704222222,
+      "band": "u",
+      "psfFlux": -11929.09765625,
+      "psfFluxErr": 2106.44970703125
+    }
+  ]
+}

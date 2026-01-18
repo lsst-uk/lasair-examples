@@ -1,0 +1,68 @@
+{
+  "diaObjectId": "3527242991888498693",
+  "diaSources": [
+    {
+      "diaSourceId": 3527242991888498693,
+      "midpointMjdTai": 61314.27337522106,
+      "band": "g",
+      "psfFlux": -105024.5859375,
+      "psfFluxErr": 938.636962890625
+    },
+    {
+      "diaSourceId": 3527245139372146693,
+      "midpointMjdTai": 61314.27337522106,
+      "band": "g",
+      "psfFlux": -105006.578125,
+      "psfFluxErr": 938.63623046875
+    },
+    {
+      "diaSourceId": 3527246213113970693,
+      "midpointMjdTai": 61314.27337522106,
+      "band": "g",
+      "psfFlux": -105030.640625,
+      "psfFluxErr": 938.6273803710938
+    },
+    {
+      "diaSourceId": 3527246749984882693,
+      "midpointMjdTai": 61314.27337522106,
+      "band": "g",
+      "psfFlux": -105033.8125,
+      "psfFluxErr": 938.646484375
+    },
+    {
+      "diaSourceId": 3527247823726706693,
+      "midpointMjdTai": 61314.27337522106,
+      "band": "g",
+      "psfFlux": -105004.1328125,
+      "psfFluxErr": 938.6392822265625
+    },
+    {
+      "diaSourceId": 3527247287392665623,
+      "midpointMjdTai": 61314.273792222215,
+      "band": "g",
+      "psfFlux": -6168.5615234375,
+      "psfFluxErr": 976.9179077148438
+    },
+    {
+      "diaSourceId": 3527248361134489623,
+      "midpointMjdTai": 61314.273792222215,
+      "band": "g",
+      "psfFlux": -6177.12939453125,
+      "psfFluxErr": 976.9222412109375
+    }
+  ],
+  "diaForcedSources": [
+    {
+      "midpointMjdTai": 61314.27337522106,
+      "band": "g",
+      "psfFlux": -106811.078125,
+      "psfFluxErr": 954.3236083984375
+    },
+    {
+      "midpointMjdTai": 61314.273792222215,
+      "band": "g",
+      "psfFlux": -6328.18017578125,
+      "psfFluxErr": 975.2588500976562
+    }
+  ]
+}

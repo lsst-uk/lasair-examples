@@ -1,0 +1,13 @@
+{
+  "diaObjectId": "3521874828229345510",
+  "diaSources": [
+    {
+      "diaSourceId": 3527247275044634793,
+      "midpointMjdTai": 61314.273792222215,
+      "band": "g",
+      "psfFlux": 30918.9140625,
+      "psfFluxErr": 583.3603515625
+    }
+  ],
+  "diaForcedSources": []
+}

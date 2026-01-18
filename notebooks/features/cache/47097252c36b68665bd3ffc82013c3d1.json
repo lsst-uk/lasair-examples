@@ -1,0 +1,81 @@
+{
+  "diaObjectId": "3516508308468924434",
+  "diaSources": [
+    {
+      "diaSourceId": 3516508308468924434,
+      "midpointMjdTai": 61058.062391224536,
+      "band": "u",
+      "psfFlux": 1034.74560546875,
+      "psfFluxErr": 819.9771118164062
+    },
+    {
+      "diaSourceId": 3527245158162628611,
+      "midpointMjdTai": 61314.27337522106,
+      "band": "g",
+      "psfFlux": -598.9266967773438,
+      "psfFluxErr": 604.3602294921875
+    },
+    {
+      "diaSourceId": 3527246231904452611,
+      "midpointMjdTai": 61314.27337522106,
+      "band": "g",
+      "psfFlux": -599.0564575195312,
+      "psfFluxErr": 604.3599243164062
+    },
+    {
+      "diaSourceId": 3527246768775364611,
+      "midpointMjdTai": 61314.27337522106,
+      "band": "g",
+      "psfFlux": -598.9782104492188,
+      "psfFluxErr": 604.3600463867188
+    },
+    {
+      "diaSourceId": 3527247842517188611,
+      "midpointMjdTai": 61314.27337522106,
+      "band": "g",
+      "psfFlux": -599.0119018554688,
+      "psfFluxErr": 604.3599853515625
+    },
+    {
+      "diaSourceId": 3527247305646276635,
+      "midpointMjdTai": 61314.273792222215,
+      "band": "g",
+      "psfFlux": -1974.239013671875,
+      "psfFluxErr": 609.2464599609375
+    },
+    {
+      "diaSourceId": 3527248379388100635,
+      "midpointMjdTai": 61314.273792222215,
+      "band": "g",
+      "psfFlux": -1974.980224609375,
+      "psfFluxErr": 609.2413330078125
+    },
+    {
+      "diaSourceId": 3527249999127642136,
+      "midpointMjdTai": 61336.20732022106,
+      "band": "g",
+      "psfFlux": -455.6048889160156,
+      "psfFluxErr": 630.794189453125
+    }
+  ],
+  "diaForcedSources": [
+    {
+      "midpointMjdTai": 61314.27337522106,
+      "band": "g",
+      "psfFlux": -609.2135620117188,
+      "psfFluxErr": 605.525390625
+    },
+    {
+      "midpointMjdTai": 61314.273792222215,
+      "band": "g",
+      "psfFlux": -1886.4091796875,
+      "psfFluxErr": 604.1812744140625
+    },
+    {
+      "midpointMjdTai": 61336.20732022106,
+      "band": "g",
+      "psfFlux": -467.8584289550781,
+      "psfFluxErr": 632.2552490234375
+    }
+  ]
+}
