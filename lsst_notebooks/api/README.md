@@ -1,4 +1,4 @@
-## Introduction to Lasair Object Features
+## Introduction to Lasair API
 
 These notebooks explain some of the value Lasair adds to each Rubin alert.
 
