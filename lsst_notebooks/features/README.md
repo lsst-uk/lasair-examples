@@ -1,46 +1,39 @@
 ## Introduction to Lasair Object Features
 
 These notebooks explain some of the value Lasair adds to each Rubin alert.
-The first thing to do is get a Lasair account 
-(here)[https://lasair.lsst.ac.uk/register/], and log in, then click on your 
-name at the top right, and choose “My Profile”. The API key is shown there.
-```
-cp settings_template.py settings.py
-```
-then edit `settings.py` and put your API key instead of the dummy.
 
-### 1_whatIsAnObject.ipynb
-Here we see the three main data objects that arrive from Rubin: 
-A single `diaObject`, together with several `diaSource` and several `diaForcedSource`. The notebook makes a lightcurve plot, then shows  list of (a) a subset of t
-he `diaObject` attributes and (b) the features computed by Lasair: all these 
-attributes are available to Lasair users to build filters using SQL.
+You will need to clone this git repo and get an Lasair account and API key.
+See [the documentation](https://lasair-lsst.readthedocs.io/en/develop/core_functions/python-notebooks.html)
+for more details.
 
-### 2_sherlock.ipynb
-The Sherlock system classifies each Lasair alert based on its location in the sky,
-finding previously catalogued objects such as variable stars and host galaxy.
+### bazinBlackBody.ipynb
+For alerts with a Sherlock host galaxy, a two-dimensional fit is made in
+both time and wavelength to look for fast risers and discern their colour.
+There are several notebooks in the directory.
 
-### 3_meanChange.ipynb
-This simple feature is to filter out lightcurves with a significant change in brightness. It lumps together all 6 wavebands into new and old, then uses 
-Student's t-test to decide if the mean flux has changed. There are two versions of 
-the feature: one compares the last 10 days to the previous 10 days; the other compares
-the last 20 days to the previous 20 days.
+### jump.ipynb
+This simple feature is to filter out lightcurves with a significant change in brightness. 
+The mean and standard deviation are computed from the time between 70 days ago
+and 10 days ago.
+Then the difference between the latest flux and the mean is divided by the standard deviation:
+this is `jump1`.
+The same is computed for the other 5 flux bands: this is `jump2`.
+If there is a true jump in brightness, we can expect both `jump1` and `jump2` to be
+larger than several sigma.
 
-### 4_milky_way.ipynb
+### milky_way.ipynb
 Calculation of the extinction E(B-V) and the galactic latitude.
+To run this notebook, you will need to install the `dustmaps` package
+that puts a 64 Mbyte file on your system.
 
-### 5_revisit.ipynb
+### pair_analysis.ipynb
 The Rubin cadence includes the same object in different wavebands only ~30 minutes
 apart, so it is possible to separate rapid brightening from colour. While the
 actual colour is reported (eg magnitude difference is 0.99 between filters g and r),
 this is also converted to an effective temperature using the blackbody model.
 
-### 6_bazinBlackBody.ipynb
-For alerts with a Sherlock host galaxy, a two-dimensional fit is made in
-both time and wavelength to look for fast risers and discern their colour.
-Two models are tried: blackbody in wavelength times exponential in flux (linear in 
-magnitude) and blackbody times Bazin in flux (exponential rise and exponential
-fall).
-
-### 7_periodFinder.ipynb
-The conditional entropy method is used to discover 
-any periodicity in a long lightcurve. The period and its relability is reported.
+### sherlock_feature.ipynb
+The Sherlock system classifies each Lasair alert based on its location in the sky,
+finding previously catalogued objects such as variable stars and host galaxy.
+In this notebook, we see all the crossmatches that sherlock finds, and 
+plots them in position relative to the original alert.
