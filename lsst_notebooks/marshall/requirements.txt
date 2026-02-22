@@ -1,7 +1,0 @@
-astropy
-confluent-kafka
-ipywidgets
-jupyter
-lasair
-matplotlib
-numpy
