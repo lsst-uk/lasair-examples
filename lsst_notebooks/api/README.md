@@ -1,6 +1,6 @@
 ## Introduction to Lasair API
 
-These notebooks explain some of the value Lasair adds to each Rubin alert.
+These notebooks show how to use the Lasair API.
 
 You will need to clone this git repo and get an Lasair account and API key.
 See [the documentation](https://lasair-lsst.readthedocs.io/en/develop/core_functions/python-notebooks.html)
