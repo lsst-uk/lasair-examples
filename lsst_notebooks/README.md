@@ -1,6 +1,6 @@
 ## Lasair Notebooks
 
-These notebooks explain how to use the pythin interface to Lasair.
+These notebooks explain how to use the python interface to Lasair.
 
 You will need to clone this git repo and get an Lasair account and API key.
 See [the documentation](https://lasair-lsst.readthedocs.io/en/develop/core_functions/python-notebooks.html)
