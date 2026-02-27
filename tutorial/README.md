@@ -1,5 +1,5 @@
 <p align="center">
-<img src="notebooks/img/lasair.png" alt="lasair" width="50"/>
+<img src="../lasair.png" alt="lasair" width="50"/>
 </p>
 
 <h1 align="center">  Lasair LSST Tutorials </h1>
